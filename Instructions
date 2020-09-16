@@ -1,0 +1,18 @@
+The code of RSA Encryption and Huffman Encoding are both in the Code folder:
+
+
+HUFFMAN ENCODING:
+To run Huffman Compression on any file type the command 
+python Compress.py "FILE NAME"
+You will get a compressed file of the same name with the extension .bcn
+To decrypt that file use the command
+python Decompress.py "FILE NAME.bcn"
+
+
+RSA ENCRYPTION:
+To encrypt any file type the command:
+python Encrypt.py "FILE NAME"
+You will get an encrypted file with the name Encrypted.txt
+To decrypt this file run the command:
+python Decrypt.py "Encrypted.txt"
+You will get a file by the name output.txt which is equivalent to the original file.
